@@ -55,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello ESGI! <br><br> <center><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWlxbXd2bmR6amZibWUzd3g2MHI2cjNncmQ3djAwdmhpaHV0aXhxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tIeCLkB8geYtW/giphy.gif" width="200px" height="200px"></center>");
+  return res.send("<center><h1>Hello ESGI!</h1> <br><br><img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWlxbXd2bmR6amZibWUzd3g2MHI2cjNncmQ3djAwdmhpaHV0aXhxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tIeCLkB8geYtW/giphy.gif' width='200px' height='200px'></center>");
 })
 
 app.get('/api', function (req, res) {
